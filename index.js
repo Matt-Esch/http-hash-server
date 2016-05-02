@@ -25,5 +25,5 @@ function ServerOptions(opts, router) {
     this.hostname = opts.hostname;
     this.port = opts.port;
     this.router = router;
-    this.gloabalRequestOptions = opts.globalRequestOptions;
+    this.globalRequestOptions = opts.globalRequestOptions;
 }
