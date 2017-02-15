@@ -1,5 +1,7 @@
 instrumentation:
     include-all-sources: true
+    excludes:
+        - examples/*
 reporting:
     print: detail
     reports:
